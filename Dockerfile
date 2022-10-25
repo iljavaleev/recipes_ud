@@ -5,7 +5,7 @@ LABEL maintainer='iljavaleev'
 ENV PYTHONUNBUFFERED 1
 
 
-COPY ./scripts /scripts
+
 COPY ./app /app
 COPY ./requirements.txt /app
 COPY ./requirements.dev.txt /app
